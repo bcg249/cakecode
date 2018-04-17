@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, 
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of Meyer Reset*/
+
+body {
+    
+    background-color: #fffaf0;
+    font-family: 'News Cycle', sans-serif;
+    
+}
+
+.title {
+    text-align: center;
+    margin:auto;
+    border-bottom: solid;
+    padding: 15px;
+    margin:10px;
+}
+
+.title h1 a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.top {
+    align-content: center;
+    margin:auto;
+    /*background-color: #ffdab9;
+    background-color:#ffe6f2;*/
+}
+
+.top div{
+    flex-grow:10;
+    display:flex;
+    list-style-type:none; 
+    text-align: center;
+    padding:10px;
+    font-size:18px;
+    
+}
+
+.nav a {
+    text-decoration:none;
+    color:rgb(0,0,0);
+    flex-grow:1;
+    text-align:center; 
+}
+
+.title-center {
+    background-color:#ffdab9;
+    background-image: url(../images/food-2589686_1920.jpg); 
+    background-repeat:no-repeat;
+    background-position:center;
+    align-content: center;
+    padding-top: 150px;
+    padding-bottom: 400px;
+    margin:auto;
+    text-align: center;   
+    vertical-align: top;
+}
+
+.title-center-about {
+    background-color:#ffdab9;
+    background-image: url(../images/food-2940556_1920.jpg); 
+    background-repeat:no-repeat;
+    background-position:center;
+    align-content: center;
+    padding-top: 150px;
+    padding-bottom: 400px;
+    margin:auto;
+    text-align: center;   
+    vertical-align: top;
+}
+.title-center-locations {
+    background-color:#ffdab9;
+    background-image: url(../images/cupcakes-2619485_1920.jpg); 
+    background-repeat:no-repeat;
+    background-position:center;
+    align-content: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    margin:auto;
+    text-align: center;   
+    vertical-align: top;
+    color:#ffffff; /*&&This is hard to read.*/
+    font-weight: bold;
+}
+.centered-heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+    
+}
+
+.centered-heading p {
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right:5vw;
+    line-height: 2; /*This doublespaces the lines*/
+}
+
+
+
+.acctag{
+    text-align: center;
+    align-items: center;
+}
+
+#eat {
+    display: flex;  /*this creates flex container*/
+    flex-direction:row;  /*set flex itemsin a column or row*/
+    justify-content:space-between;
+    align-items:center; 
+    border-radius:15px;
+    padding: 5px 20px 5px 20px;
+    width:80vw;
+    margin:auto;
+    margin-bottom: 100px;
+    
+}
+
+.inset {
+    margin:10px;
+    flex-grow:1;
+    width:20vw;
+    
+    align-content: center;
+}
+
+.inset img {
+    width: 15vw;
+    height:auto;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.inset p {
+    text-align: center;
+}
+
+/* && I can't figure out how to center this'*/
+
+.form_container{
+    /*width:80px; */
+    /*align-content: center;
+    align-items:center;*/
+    /*margin:auto;*/
+    /*border:solid;*/
+    justify-content: center;
+    
+}
+ .form_container input {
+     padding: 5px;
+     width: 200px;
+ }
+
+/*I don't get how to target the form'*/
+
+form{
+    
+    display:flex;
+    align-content: center;
+    align-items:center;
+   /* background-color: aqua;
+    border:solid;
+    */
+    flex-direction: column;
+}
+
+/*This form is kind of ugly. I don't know how to make it less ugly. */
+
+.form_container p {
+    margin-top:15px;
+}
+
+.list{
+    width:40vw;
+    margin-left:30vw;
+    margin-right:30vw;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+footer {
+    text-align: center;
+    padding:50px;
+    margin-top: 150px;
+}
+
+
+/*form con'd */
+
