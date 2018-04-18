@@ -223,6 +223,28 @@ form{
     margin-top:15px;
 }
 
+BUTTON {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 38px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 70px 21.5px;
+    transform-origin: 70px 21.5px;
+    user-select: none;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 18px / 27px Inconsolata, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 8px 16px;
+}
+
 .list{
     width:40vw;
     margin-left:30vw;
