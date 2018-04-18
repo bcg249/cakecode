@@ -214,13 +214,24 @@ form{
    /* background-color: aqua;
     border:solid;
     */
+   max-width: 500px;
+    padding: 10px 20px;
+    background: #f5f5dc; 
+    margin: 10px auto;
+    padding: 20px;
+    background: #f5f5dc;
+    border-radius: 8px;
     flex-direction: column;
 }
 
-/*This form is kind of ugly. I don't know how to make it less ugly. */
-
 .form_container p {
     margin-top:15px;
+}
+
+form legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    
 }
 
 BUTTON {
@@ -234,10 +245,13 @@ BUTTON {
     width: 100px;
     column-rule-color: rgb(255, 255, 255);
     perspective-origin: 70px 21.5px;
-    transform-origin: 70px 21.5px;
+    transform-origin: 60px 20.5px;
     user-select: none;
     caret-color: rgb(255, 255, 255);
+    
     background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    /*^ color of submit buttom */
+    
     border: 0px none rgb(255, 255, 255);
     font: normal normal 400 normal 18px / 27px Inconsolata, sans-serif;
     outline: rgb(255, 255, 255) none 0px;
